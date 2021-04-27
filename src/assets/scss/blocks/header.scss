@@ -1,0 +1,65 @@
+@import 'container.scss';
+@import 'vars.scss';
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+    &__row {
+    }
+
+    &__item {
+    }
+
+    &__head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    &__head-logo {
+        img {
+            width: 150px;
+            height: 150px;
+            background-size: cover;
+        }
+    }
+}
+.container {
+}
+.ul {
+}
+.link {
+    margin: 0 15px 0 0;
+    font-size: 15px;
+    font-weight: 600;
+    color:white;
+    transition: 0.3s;
+    &:hover {
+        color:#0750D0;
+    }
+}
+.fa {
+}
+.fa-search {
+    @extend %faitem;
+    margin-right: 10px;
+}
+.fa-shopping-basket {
+    @extend %faitem;
+}
+
+.fa-chevron-right {
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+        color: $colorblue;
+    }
+ 
+}
+.fa-chevron-left {
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+        color: $colorblue;
+    }
+}

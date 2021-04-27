@@ -1,0 +1,37 @@
+@import 'vars.scss';
+.unicon {
+margin-top: 50px;
+    &__row {
+    }
+
+    &__item {
+    }
+
+    &__body {
+        background: url('/assets/images/девушка_силуэт_воздушный_шар.jpg');
+        width: 100%;
+        height: 100%;
+        padding: 120px 0;
+        background-size: cover;
+    }
+
+    &__body-subtitle {
+        font-size: 17px;
+        margin-top: 20px;
+    }
+
+    &__btn {
+        margin-top: 20px;
+        width: 150px;
+        padding: 10px;
+        font-size: 17px;
+        background:$colorblue;
+        color:white;
+        border-radius:20px;
+        font-weight: 600;
+        transition: 0.3s;
+        &:hover {
+            background:$colorpup;
+        }
+    }
+}

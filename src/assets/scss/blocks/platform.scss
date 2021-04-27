@@ -1,0 +1,89 @@
+.platform {
+background-color:#110614;
+width: 100%;
+    &__row {
+    }
+
+    &__item {
+    }
+
+    &__column {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    &__block {
+        flex: 0 1 30%;
+        border: 0.1px solid #343536f8;
+        padding: 30px;
+        background:#101010;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        margin-left: 30px;
+        cursor: pointer;
+        position: relative;
+        z-index: 1000;
+        &::before {
+            content: "";
+            display: block;
+            opacity: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(321deg, rgba(11,17,101,1) 31%, rgba(138,26,51,1) 100%);
+            transition: opacity 0.3s ease-in-out;
+            z-index: -1000;
+        }
+        &:hover::before {
+            opacity: 1;
+            
+        }
+    }
+    &__block:nth-child(1) {
+        margin-left: 0px;
+    }
+
+    &__block-logo {
+    }
+
+    &__block-text {
+    }
+
+    &__block-title {
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    &__block-subtitle {
+        padding-top: 10px;
+        font-size: 15px;
+        text-align: justify;
+    }
+}
+.container {
+}
+$fontfa: 70px;
+.fa {
+}
+.fa-twitch {
+    font-size: $fontfa;
+}
+.fa-gamepad {
+    font-size: $fontfa;
+}
+.fa-trophy {
+    font-size: $fontfa;
+}
+
+
+
+// 110614
+// 
+

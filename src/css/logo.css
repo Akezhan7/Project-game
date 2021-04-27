@@ -1,0 +1,61 @@
+.l1, .l2, .l3 {
+  width: 100%;
+  height: 100vh;
+}
+
+.l1 {
+  background: url(/assets/images/bg/batgirl.jpg) no-repeat;
+  background-size: cover;
+}
+
+.l2 {
+  background: url(/assets/images/bg/52855-soldaty_voennye_ekkipirovka.jpg) no-repeat;
+  background-size: cover;
+}
+
+.l3 {
+  background: url(/assets/images/bg/miles-morales.jpg) no-repeat;
+  background-size: cover;
+}
+
+.s1 {
+  background: url("/assets/images/sport/1023446.jpg");
+  width: 500px;
+  height: 300px;
+  background-size: cover;
+}
+
+.s2 {
+  background: url("/assets/images/sport/maxresdefault.jpg");
+  width: 500px;
+  height: 300px;
+  background-size: cover;
+}
+
+.s3 {
+  background: url("/assets/images/sport/9429411761395937_4f91.jpg");
+  width: 500px;
+  height: 300px;
+  background-size: cover;
+}
+
+.s4 {
+  background: url("/assets/images/sport/a32dca54aed245fe5fc04bd15abf7c3527b7413c-1536x960.jpg");
+  width: 500px;
+  height: 300px;
+  background-size: cover;
+}
+
+.s5 {
+  background: url("/assets/images/sport/cybere0e9675dd24.jpg");
+  width: 500px;
+  height: 300px;
+  background-size: cover;
+}
+
+.s6 {
+  background: url("/assets/images/sport/CZkXlAMWkAARCZN.jpg");
+  width: 500px;
+  height: 300px;
+  background-size: cover;
+}

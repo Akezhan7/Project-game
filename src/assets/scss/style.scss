@@ -1,0 +1,28 @@
+@import 'vendor/nullstyle';
+@import 'blocks/header.scss';
+@import 'blocks/vars.scss';
+@import 'blocks/main.scss';
+@import 'blocks/platform.scss';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import 'blocks/themes.scss';
+@import 'blocks/sport.scss';
+@import 'blocks/matches.scss';
+@import 'blocks/unicon.scss';
+@import 'blocks/users.scss';
+@import 'blocks/footer.scss';
+html {
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: #000000;
+    color: white;
+}
+.google {
+    margin-top: 100px;
+    text-align: center;
+}
+iframe {
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+}

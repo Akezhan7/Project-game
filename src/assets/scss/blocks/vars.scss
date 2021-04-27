@@ -1,0 +1,14 @@
+%faitem {
+    cursor:pointer;
+    &:hover {
+        color:#0750D0;
+    }
+}
+$colorblue: rgba(16,40,214,1);
+$colorpup: #6e06d6;
+$colorpup2: #9b02faf8;
+
+%genlogo {
+    width: 100%;
+    height: 100vh;
+}
